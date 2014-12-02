@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8445,13 +8445,13 @@ DIN A3, landscape with extra doc field</description>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="OPL Eagle Library" deviceset="GROVE-4P-2.0" device="-3470130P1"/>
 <part name="U$2" library="coilcraft" deviceset="LPS4018" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="1u"/>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
 <part name="GND4" library="supply" deviceset="GND" device=""/>
 <part name="GND5" library="supply" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="GND2" library="supply" deviceset="GND" device=""/>
 <part name="GND3" library="supply" deviceset="GND" device=""/>
 <part name="U$3" library="maxim" deviceset="MAX17501" device=""/>
