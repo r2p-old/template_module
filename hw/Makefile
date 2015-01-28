@@ -34,12 +34,9 @@ gerbers: mkdir 2layers
 doc: schematic png assembly
 
 
-
-
 ### GERBER FILES GENERATION
 
-mkdir:
-	$(MKDIR) $(GERBERS_PATH)
+mkdir: $(MKDIR) $(GERBERS_PATH)
 
 2layers: $(PROJECT_NAME).GTL $(PROJECT_NAME).GTS $(PROJECT_NAME).GTO $(PROJECT_NAME).GTP $(PROJECT_NAME).GBL $(PROJECT_NAME).GBS $(PROJECT_NAME).GBO $(PROJECT_NAME).GBP  $(PROJECT_NAME).TXT $(PROJECT_NAME).GML $(PROJECT_NAME).place 
 	zip $(PROJECT_NAME)-gerbers.zip $(GERBERS_PATH)/*
@@ -47,12 +44,15 @@ mkdir:
 # Top layer - copper
 %.GTL : %.brd
 	$(EAGLE) -X -N -d GERBER_RS274X -o $(GERBERS_PATH)/$@ $< Top Pads Vias
+
 # Top layer - solder stop mask
 %.GTS : %.brd
 	$(EAGLE) -X -N -d GERBER_RS274X -o $(GERBERS_PATH)/$@ $< tStop
+
 # Top layer - silkscreen
 %.GTO : %.brd
 	$(EAGLE) -X -N -d GERBER_RS274X -o $(GERBERS_PATH)/$@ $< Dimension Document
+
 # Top layer - solder paste
 %.GTP: %.brd
 	$(EAGLE) -X -N -d GERBER_RS274X -o $(GERBERS_PATH)/$@ $< tCream
@@ -60,12 +60,15 @@ mkdir:
 # Bottom layer - copper
 %.GBL : %.brd
 	$(EAGLE) -X -N -d GERBER_RS274X -o $(GERBERS_PATH)/$@ $< Bottom Pads Vias
+
 # Bottom layer - solder stop mask
 %.GBS : %.brd
 	$(EAGLE) -X -N -d GERBER_RS274X -o $(GERBERS_PATH)/$@ $< bStop
+
 # Bottom layer - silkscreen
 %.GBO : %.brd
 	$(EAGLE) -X -N -d GERBER_RS274X -o $(GERBERS_PATH)/$@ $< Dimension 200bmp
+
 # Bottom layer - solder paste
 %.GBP: %.brd
 	$(EAGLE) -X -N -d GERBER_RS274X -o $(GERBERS_PATH)/$@ $< bCream
@@ -110,7 +113,6 @@ png:  $(PROJECT_NAME).GTL $(PROJECT_NAME).GTS $(PROJECT_NAME).GTO $(PROJECT_NAME
 ### CLEAN ###
 
 clean:
-#	rm -rf $(GERBERS_PATH)/$(PROJECT_NAME).{GTL,GTS,GTO,GTP,GBL,GBS,GBO,GBP,TXT,GML,dri,gpi,place}
 	rm -rf ./gerbers
 	rm -rf $(PROJECT_NAME)-gerbers.zip
 	rm -rf $(PROJECT_NAME)-schematic.pdf
