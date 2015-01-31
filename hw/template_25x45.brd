@@ -3501,7 +3501,7 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="test">
+<designrules name="2layer_0.2mm">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -3519,8 +3519,8 @@ design rules under a new name.</description>
 <description language="zh">&lt;b&gt;Seeed Studio EAGLE Design Rules&lt;/b&gt;
 </description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="0.2mm"/>
 <param name="mdWirePad" value="0.2mm"/>
 <param name="mdWireVia" value="0.2mm"/>
@@ -3532,8 +3532,8 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="0mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="10mil"/>
-<param name="mdDrill" value="10mil"/>
+<param name="mdCopperDimension" value="0.3mm"/>
+<param name="mdDrill" value="0.3mm"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="0.2mm"/>
 <param name="msDrill" value="0.3mm"/>
@@ -3567,15 +3567,15 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2mil"/>
-<param name="mlMaxStopFrame" value="2mil"/>
+<param name="mlMinStopFrame" value="0.05mm"/>
+<param name="mlMaxStopFrame" value="0.05mm"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="100mil"/>
+<param name="mlViaStopLimit" value="2.5mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalIsolate" value="0.25mm"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
@@ -4152,6 +4152,10 @@ design rules under a new name.</description>
 <approved hash="7,39,e27a7cf36306a4d6"/>
 <approved hash="7,39,2894e6db66dca893"/>
 <approved hash="7,39,7c423a0fba0ffc42"/>
+<approved hash="7,39,5c0a9ec91ecfdc0c"/>
+<approved hash="7,39,a2ed64a0e4a122ec"/>
+<approved hash="7,39,e87626b5a6b26871"/>
+<approved hash="7,39,22a2e4ef64efa2a2"/>
 </errors>
 </board>
 </drawing>

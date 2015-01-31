@@ -7,16 +7,16 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="/home/tino/workspace/r2p/Eagle/lbr/r2p_pcb.lbr"
+UsedLibrary="/home/tino/workspace/r2p/Eagle/lbr/r2p_connector.lbr"
+UsedLibrary="/home/tino/workspace/r2p/Eagle/lbr/r2p_ic.lbr"
 UsedLibrary="/home/tino/workspace/r2p/Eagle/lbr/r2p_led.lbr"
+UsedLibrary="/home/tino/workspace/r2p/Eagle/lbr/r2p_pcb.lbr"
 UsedLibrary="/home/tino/workspace/r2p/Eagle/lbr/r2p_rcl.lbr"
 UsedLibrary="/home/tino/workspace/r2p/Eagle/lbr/r2p_supply.lbr"
-UsedLibrary="/home/tino/workspace/r2p/Eagle/lbr/r2p_ic.lbr"
-UsedLibrary="/home/tino/workspace/r2p/Eagle/lbr/r2p_connector.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="888 485 1487 884"
+Loc="-9 58 590 457"
 State=1
 Number=0
 
