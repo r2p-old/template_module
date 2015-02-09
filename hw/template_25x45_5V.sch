@@ -4077,10 +4077,10 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <packages>
 <package name="C0603">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.5" y1="0.6" x2="1.5" y2="0.6" width="0.05" layer="39"/>
-<wire x1="1.5" y1="0.6" x2="1.5" y2="-0.6" width="0.05" layer="39"/>
-<wire x1="1.5" y1="-0.6" x2="-1.5" y2="-0.6" width="0.05" layer="39"/>
-<wire x1="-1.5" y1="-0.6" x2="-1.5" y2="0.6" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="0.65" x2="1.55" y2="0.65" width="0.05" layer="39"/>
+<wire x1="1.55" y1="0.65" x2="1.55" y2="-0.65" width="0.05" layer="39"/>
+<wire x1="1.55" y1="-0.65" x2="-1.55" y2="-0.65" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="-0.65" x2="-1.55" y2="0.65" width="0.05" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
@@ -4109,12 +4109,12 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </package>
 <package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.05" layer="39"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.05" layer="39"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="0.9" x2="1.8" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1.8" y1="-0.9" x2="-1.8" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="-0.9" x2="-1.8" y2="0.9" width="0.05" layer="39"/>
 <wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.05" layer="39"/>
+<wire x1="1.8" y1="0.9" x2="1.8" y2="-0.9" width="0.05" layer="39"/>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
@@ -4239,10 +4239,10 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.05" layer="39"/>
-<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.05" layer="39"/>
-<wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.05" layer="39"/>
-<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.05" layer="39"/>
+<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.05" layer="39"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.05" layer="39"/>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -4267,22 +4267,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <text x="0" y="0" size="1" layer="25" font="vector" align="center">&gt;NAME</text>
 <text x="0" y="-1.5" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
-<package name="R0805">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.05" layer="39"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.05" layer="39"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.05" layer="39"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.05" layer="39"/>
-<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="0" y="0" size="1" layer="25" font="vector" align="center">&gt;NAME</text>
-<text x="0" y="-1.5" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
-</package>
 <package name="R1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
@@ -4296,6 +4280,22 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
 <smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
 <smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="0" y="0" size="1" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.5" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
+</package>
+<package name="R0805">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.8" y1="0.9" x2="1.8" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1.8" y1="0.9" x2="1.8" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="1.8" y1="-0.9" x2="-1.8" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="-0.9" x2="-1.8" y2="0.9" width="0.05" layer="39"/>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <text x="0" y="0" size="1" layer="25" font="vector" align="center">&gt;NAME</text>
 <text x="0" y="-1.5" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
@@ -4337,12 +4337,12 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C">
+<deviceset name="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-0402" package="C0402">
+<device name="0402" package="C0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4351,7 +4351,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-0603" package="C0603">
+<device name="0603" package="C0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4360,7 +4360,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-0805" package="C0805">
+<device name="0805" package="C0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4369,7 +4369,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-1206" package="C1206">
+<device name="1206" package="C1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4380,7 +4380,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LPS4018">
+<deviceset name="LPS4018" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
@@ -4396,12 +4396,12 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R">
+<deviceset name="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-0402" package="R0402">
+<device name="0402" package="R0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4410,7 +4410,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-0603" package="R0603">
+<device name="0603" package="R0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4419,7 +4419,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-0805" package="R0805">
+<device name="0805" package="R0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4428,7 +4428,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-1206" package="R1206">
+<device name="1206" package="R1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -4590,33 +4590,33 @@ DIN A3, landscape with extra doc field</description>
 </class>
 </classes>
 <parts>
-<part name="C6" library="r2p_rcl" deviceset="C" device="-0603" value="10n"/>
+<part name="C6" library="r2p_rcl" deviceset="C" device="0603" value="10n"/>
 <part name="GND11" library="r2p_supply" deviceset="GND" device=""/>
 <part name="GND12" library="r2p_supply" deviceset="GND" device=""/>
 <part name="+3V2" library="r2p_supply" deviceset="+3V3" device=""/>
 <part name="GND6" library="r2p_supply" deviceset="GND" device=""/>
 <part name="+3V4" library="r2p_supply" deviceset="+3V3" device=""/>
-<part name="C17" library="r2p_rcl" deviceset="C" device="-0603" value="100n"/>
-<part name="C14" library="r2p_rcl" deviceset="C" device="-0603" value="100n"/>
-<part name="C4" library="r2p_rcl" deviceset="C" device="-0603" value="100n"/>
+<part name="C17" library="r2p_rcl" deviceset="C" device="0603" value="100n"/>
+<part name="C14" library="r2p_rcl" deviceset="C" device="0603" value="100n"/>
+<part name="C4" library="r2p_rcl" deviceset="C" device="0603" value="100n"/>
 <part name="GND29" library="r2p_supply" deviceset="GND" device=""/>
 <part name="GND30" library="r2p_supply" deviceset="GND" device=""/>
 <part name="GND31" library="r2p_supply" deviceset="GND" device=""/>
 <part name="+3V11" library="r2p_supply" deviceset="+3V3" device=""/>
-<part name="C5" library="r2p_rcl" deviceset="C" device="-0805" value="4.7u"/>
+<part name="C5" library="r2p_rcl" deviceset="C" device="0805" value="4.7u"/>
 <part name="GND34" library="r2p_supply" deviceset="GND" device=""/>
 <part name="+3V5" library="r2p_supply" deviceset="+3V3" device=""/>
 <part name="GND7" library="r2p_supply" deviceset="GND" device=""/>
 <part name="+3V6" library="r2p_supply" deviceset="+3V3" device=""/>
-<part name="C3" library="r2p_rcl" deviceset="C" device="-0603" value="100n"/>
+<part name="C3" library="r2p_rcl" deviceset="C" device="0603" value="100n"/>
 <part name="GND9" library="r2p_supply" deviceset="GND" device=""/>
 <part name="+3V3" library="r2p_supply" deviceset="+3V3" device=""/>
 <part name="GND8" library="r2p_supply" deviceset="GND" device=""/>
 <part name="GND10" library="r2p_supply" deviceset="GND" device=""/>
-<part name="C7" library="r2p_rcl" deviceset="C" device="-0603" value="100n"/>
+<part name="C7" library="r2p_rcl" deviceset="C" device="0603" value="100n"/>
 <part name="GND22" library="r2p_supply" deviceset="GND" device=""/>
 <part name="LED1" library="r2p_led" deviceset="LED" device="0805" value=""/>
-<part name="R1" library="r2p_rcl" deviceset="R" device="-0603" value="330"/>
+<part name="R1" library="r2p_rcl" deviceset="R" device="0603" value="330"/>
 <part name="GND16" library="r2p_supply" deviceset="GND" device=""/>
 <part name="GND17" library="r2p_supply" deviceset="GND" device=""/>
 <part name="U$4" library="r2p_connector" deviceset="JTAG" device="-TH" value="JTAG-TH"/>
@@ -4624,13 +4624,13 @@ DIN A3, landscape with extra doc field</description>
 <part name="GND19" library="r2p_supply" deviceset="GND" device=""/>
 <part name="J2" library="r2p_connector" deviceset="R2P_BUS" device="-VERTICAL"/>
 <part name="U$2" library="r2p_rcl" deviceset="LPS4018" device=""/>
-<part name="C1" library="r2p_rcl" deviceset="C" device="-1206" value="1u"/>
+<part name="C1" library="r2p_rcl" deviceset="C" device="1206" value="1u"/>
 <part name="GND1" library="r2p_supply" deviceset="GND" device=""/>
-<part name="C2" library="r2p_rcl" deviceset="C" device="-0603" value="1u"/>
-<part name="C8" library="r2p_rcl" deviceset="C" device="-0603" value="10n"/>
+<part name="C2" library="r2p_rcl" deviceset="C" device="0603" value="1u"/>
+<part name="C8" library="r2p_rcl" deviceset="C" device="0603" value="10n"/>
 <part name="GND4" library="r2p_supply" deviceset="GND" device=""/>
 <part name="GND5" library="r2p_supply" deviceset="GND" device=""/>
-<part name="C9" library="r2p_rcl" deviceset="C" device="-0805" value="10u"/>
+<part name="C9" library="r2p_rcl" deviceset="C" device="0805" value="10u"/>
 <part name="GND2" library="r2p_supply" deviceset="GND" device=""/>
 <part name="GND3" library="r2p_supply" deviceset="GND" device=""/>
 <part name="U$3" library="r2p_ic" deviceset="MAX17501" device=""/>
@@ -4644,8 +4644,8 @@ DIN A3, landscape with extra doc field</description>
 <part name="U5" library="r2p_ic" deviceset="TLV700XX" device="DDC"/>
 <part name="GND25" library="r2p_supply" deviceset="GND" device=""/>
 <part name="+3V9" library="r2p_supply" deviceset="+3V3" device=""/>
-<part name="C18" library="r2p_rcl" deviceset="C" device="-0603" value="1u"/>
-<part name="C19" library="r2p_rcl" deviceset="C" device="-0603" value="1u"/>
+<part name="C18" library="r2p_rcl" deviceset="C" device="0603" value="1u"/>
+<part name="C19" library="r2p_rcl" deviceset="C" device="0603" value="1u"/>
 <part name="GND26" library="r2p_supply" deviceset="GND" device=""/>
 <part name="GND28" library="r2p_supply" deviceset="GND" device=""/>
 <part name="P+10" library="r2p_supply" deviceset="+5V" device=""/>

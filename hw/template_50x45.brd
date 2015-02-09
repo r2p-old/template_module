@@ -499,10 +499,10 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <packages>
 <package name="C0603">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.5" y1="0.6" x2="1.5" y2="0.6" width="0.05" layer="39"/>
-<wire x1="1.5" y1="0.6" x2="1.5" y2="-0.6" width="0.05" layer="39"/>
-<wire x1="1.5" y1="-0.6" x2="-1.5" y2="-0.6" width="0.05" layer="39"/>
-<wire x1="-1.5" y1="-0.6" x2="-1.5" y2="0.6" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="0.65" x2="1.55" y2="0.65" width="0.05" layer="39"/>
+<wire x1="1.55" y1="0.65" x2="1.55" y2="-0.65" width="0.05" layer="39"/>
+<wire x1="1.55" y1="-0.65" x2="-1.55" y2="-0.65" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="-0.65" x2="-1.55" y2="0.65" width="0.05" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
@@ -515,12 +515,12 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 </package>
 <package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.05" layer="39"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.05" layer="39"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="0.9" x2="1.8" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1.8" y1="-0.9" x2="-1.8" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="-0.9" x2="-1.8" y2="0.9" width="0.05" layer="39"/>
 <wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.05" layer="39"/>
+<wire x1="1.8" y1="0.9" x2="1.8" y2="-0.9" width="0.05" layer="39"/>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
@@ -645,10 +645,10 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.05" layer="39"/>
-<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.05" layer="39"/>
-<wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.05" layer="39"/>
-<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.05" layer="39"/>
+<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.05" layer="39"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.05" layer="39"/>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -851,7 +851,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C6" library="r2p_rcl" package="C0603" value="10n" x="39.2" y="9.5" rot="R180"/>
-<element name="C17" library="r2p_rcl" package="C0603" value="100n" x="36.1" y="9.5"/>
+<element name="C17" library="r2p_rcl" package="C0603" value="100n" x="36" y="9.5"/>
 <element name="C14" library="r2p_rcl" package="C0603" value="100n" x="24" y="13.4" rot="R180"/>
 <element name="C4" library="r2p_rcl" package="C0603" value="100n" x="33.7" y="3.7" rot="R270"/>
 <element name="C5" library="r2p_rcl" package="C0805" value="4.7u" x="35.4" y="3.8" rot="R270"/>
@@ -861,7 +861,7 @@ design rules under a new name.</description>
 <element name="R1" library="r2p_rcl" package="R0603" value="330" x="35.9" y="7.3" rot="R180"/>
 <element name="U$4" library="r2p_connector" package="SAMTEC_FTSH-105-TH" value="JTAG-TH" x="17.2" y="2.7"/>
 <element name="J2" library="r2p_connector" package="OPL-EAGLE-LIBRARY_4P-2.0" value="R2P_BUS-VERTICAL" x="44" y="3.2" rot="R180"/>
-<element name="U$2" library="r2p_rcl" package="COILCRAFT_LPS4018" value="LPS4018" x="11.2" y="8.7" rot="R90"/>
+<element name="U$2" library="r2p_rcl" package="COILCRAFT_LPS4018" value="" x="11.2" y="8.7" rot="R90"/>
 <element name="C1" library="r2p_rcl" package="C1206" value="1u" x="4.1" y="8.9" rot="R90"/>
 <element name="C2" library="r2p_rcl" package="C0603" value="1u" x="5.7" y="12.1"/>
 <element name="C8" library="r2p_rcl" package="C0603" value="10n" x="14.5" y="7.2" rot="R90"/>
@@ -1025,8 +1025,8 @@ design rules under a new name.</description>
 <wire x1="33.7" y1="4.75" x2="33.7" y2="4.55" width="0.2" layer="1"/>
 <wire x1="24.85" y1="13.25" x2="24.85" y2="13.4" width="0.2" layer="1"/>
 <wire x1="8.2" y1="10.55" x2="8.05" y2="10.4" width="0.6" layer="1"/>
-<wire x1="33.55" y1="10.25" x2="34.5" y2="10.25" width="0.2" layer="1"/>
-<wire x1="34.5" y1="10.25" x2="35.25" y2="9.5" width="0.2" layer="1"/>
+<wire x1="33.55" y1="10.25" x2="34.4" y2="10.25" width="0.2" layer="1"/>
+<wire x1="34.4" y1="10.25" x2="35.15" y2="9.5" width="0.2" layer="1"/>
 <wire x1="40.025" y1="8.2625" x2="40.025" y2="9.475" width="0.3" layer="1"/>
 <wire x1="40.025" y1="9.475" x2="40.05" y2="9.5" width="0.3" layer="1"/>
 <wire x1="40.05" y1="9.5" x2="40.7" y2="9.5" width="0.6" layer="1"/>
@@ -1036,11 +1036,10 @@ design rules under a new name.</description>
 <wire x1="42.25" y1="8.5" x2="42.3" y2="8.55" width="0.6" layer="1"/>
 <wire x1="35.4" y1="6.2" x2="38.8" y2="6.2" width="0.6" layer="16"/>
 <wire x1="38.8" y1="6.2" x2="41.1" y2="8.5" width="0.6" layer="16"/>
-<via x="35.4" y="10.5" extent="1-16" drill="0.3"/>
-<wire x1="35.4" y1="6.2" x2="35.4" y2="7.2" width="0.6" layer="16"/>
-<wire x1="35.4" y1="7.2" x2="35.4" y2="10.5" width="0.6" layer="16"/>
-<wire x1="35.4" y1="10.5" x2="35.4" y2="9.65" width="0.6" layer="1"/>
-<wire x1="35.4" y1="9.65" x2="35.25" y2="9.5" width="0.6" layer="1"/>
+<via x="35.2" y="10.5" extent="1-16" drill="0.3"/>
+<wire x1="35.2" y1="7.2" x2="35.2" y2="10.5" width="0.6" layer="16"/>
+<wire x1="35.2" y1="10.5" x2="35.2" y2="9.55" width="0.6" layer="1"/>
+<wire x1="35.2" y1="9.55" x2="35.15" y2="9.5" width="0.6" layer="1"/>
 <via x="24.9" y="14.4" extent="1-16" drill="0.3"/>
 <wire x1="24.85" y1="13.25" x2="24.9" y2="13.3" width="0.6" layer="1"/>
 <wire x1="24.9" y1="13.3" x2="24.9" y2="14.4" width="0.6" layer="1"/>
@@ -1063,11 +1062,13 @@ design rules under a new name.</description>
 <wire x1="15.9" y1="6.7" x2="15.9" y2="9" width="0.6" layer="16"/>
 <wire x1="24.9" y1="8.443496875" x2="26.656503125" y2="8.443496875" width="0.6" layer="16"/>
 <wire x1="26.656503125" y1="8.443496875" x2="27.9" y2="7.2" width="0.6" layer="16"/>
-<wire x1="27.9" y1="7.2" x2="35.4" y2="7.2" width="0.6" layer="16"/>
+<wire x1="27.9" y1="7.2" x2="35.2" y2="7.2" width="0.6" layer="16"/>
 <wire x1="15.9" y1="6.7" x2="13.6" y2="4.4" width="0.6" layer="16"/>
 <wire x1="25.05" y1="6.25" x2="24.15" y2="6.25" width="0.2" layer="1"/>
 <wire x1="24.15" y1="6.25" x2="24" y2="6.1" width="0.2" layer="1"/>
 <wire x1="26.55" y1="13.25" x2="25" y2="13.25" width="0.2" layer="1"/>
+<wire x1="35.2" y1="7.2" x2="35.2" y2="6.4" width="0.6" layer="16"/>
+<wire x1="35.2" y1="6.4" x2="35.4" y2="6.2" width="0.6" layer="16"/>
 </signal>
 <signal name="JTMS">
 <contactref element="U$4" pad="2"/>
@@ -1274,10 +1275,12 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="7,39,5c0a9ec91ecfdc0c"/>
-<approved hash="7,39,a2ed64a0e4a122ec"/>
 <approved hash="7,39,96e8d42b542816eb"/>
 <approved hash="7,39,3c24fa697a69bc24"/>
+<approved hash="7,39,5c0a9ec91ecfdc0c"/>
+<approved hash="7,39,a2ed64a0e4a122ec"/>
+<approved hash="7,39,16ab57e5d7e696a8"/>
+<approved hash="7,39,72a43be9bbe9f2a4"/>
 </errors>
 </board>
 </drawing>

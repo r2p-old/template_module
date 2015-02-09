@@ -3305,10 +3305,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4335-MAX4338.pdf</description>
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.05" layer="39"/>
-<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.05" layer="39"/>
-<wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.05" layer="39"/>
-<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.05" layer="39"/>
+<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.05" layer="39"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.05" layer="39"/>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
@@ -3319,12 +3319,12 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4335-MAX4338.pdf</description>
 </package>
 <package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.05" layer="39"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.05" layer="39"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="0.9" x2="1.8" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1.8" y1="-0.9" x2="-1.8" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="-0.9" x2="-1.8" y2="0.9" width="0.05" layer="39"/>
 <wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.05" layer="39"/>
+<wire x1="1.8" y1="0.9" x2="1.8" y2="-0.9" width="0.05" layer="39"/>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
@@ -3351,10 +3351,10 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4335-MAX4338.pdf</description>
 </package>
 <package name="C0603">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.5" y1="0.6" x2="1.5" y2="0.6" width="0.05" layer="39"/>
-<wire x1="1.5" y1="0.6" x2="1.5" y2="-0.6" width="0.05" layer="39"/>
-<wire x1="1.5" y1="-0.6" x2="-1.5" y2="-0.6" width="0.05" layer="39"/>
-<wire x1="-1.5" y1="-0.6" x2="-1.5" y2="0.6" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="0.65" x2="1.55" y2="0.65" width="0.05" layer="39"/>
+<wire x1="1.55" y1="0.65" x2="1.55" y2="-0.65" width="0.05" layer="39"/>
+<wire x1="1.55" y1="-0.65" x2="-1.55" y2="-0.65" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="-0.65" x2="-1.55" y2="0.65" width="0.05" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
@@ -3724,7 +3724,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19" y="3.2" size="1" layer="25" font="vector" ratio="11" rot="R180" align="center"/>
 <attribute name="VALUE" x="20.905" y="3.2" size="0.635" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="U$2" library="r2p_rcl" package="COILCRAFT_LPS4018" value="LPS4018" x="11.2" y="8.7" smashed="yes" rot="R90"/>
+<element name="U$2" library="r2p_rcl" package="COILCRAFT_LPS4018" value="" x="11.2" y="8.7" smashed="yes" rot="R90"/>
 <element name="C1" library="r2p_rcl" package="C1206" value="1u" x="4.1" y="8.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.1" y="8.9" size="1" layer="25" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="6.64" y="7.63" size="1.27" layer="27" rot="R90"/>
@@ -4152,10 +4152,13 @@ design rules under a new name.</description>
 <approved hash="7,39,e27a7cf36306a4d6"/>
 <approved hash="7,39,2894e6db66dca893"/>
 <approved hash="7,39,7c423a0fba0ffc42"/>
-<approved hash="7,39,5c0a9ec91ecfdc0c"/>
-<approved hash="7,39,a2ed64a0e4a122ec"/>
 <approved hash="7,39,e87626b5a6b26871"/>
 <approved hash="7,39,22a2e4ef64efa2a2"/>
+<approved hash="7,39,5c0a9ec91ecfdc0c"/>
+<approved hash="7,39,a2ed64a0e4a122ec"/>
+<approved hash="7,39,b60d91f16260259a"/>
+<approved hash="7,39,6835a57b257ce832"/>
+<approved hash="7,39,6022256fa56fe022"/>
 </errors>
 </board>
 </drawing>
